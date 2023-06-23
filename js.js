@@ -29,7 +29,9 @@ $(document).ready(function(){
         $(".dop6").toggleClass('dopop');
       });
 
-// ИНВЕРТ ЦВЕТА
-       
+// МЕНЮ
+       $(".men").click(function (){
+        $(".menu").css("display","block");
+      });
 });
 
