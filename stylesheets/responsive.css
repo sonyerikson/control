@@ -1,0 +1,56 @@
+@media only screen and (min-width: 1280px) {
+  .inf1 {
+    height: 370px;
+    width: 580px;
+    border: 2px #FFFFFF;
+    border-style: solid none solid;
+}
+
+}  /* Desktop */
+
+@media only screen and (min-width: 1024px) {
+
+}  /* Laptop */
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) {
+  .menup5 {
+    width: 0%;
+    border-style: none solid solid none;
+    position: absolute;
+}
+}  /* iPad */
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) and (orientation: portrait) {
+  .menup5 {
+    width: 0%;
+    border-style: none solid solid none;
+    position: absolute;
+}
+}  /* iPad Portrait */
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .menup5 {
+    width: 0%;
+    border-style: none solid solid none;
+    position: absolute;
+}
+
+}  /* iPad Landscape */
+
+@media only screen and (min-device-width: 1px) and (max-device-width: 600px) {
+  .menup5 {
+    width: 0%;
+    border-style: none solid solid none;
+    position: absolute;
+}
+  
+  .line1 {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    height: 546px;
+    display: block;
+    justify-content: space-evenly;
+    margin-bottom: -106px;
+}
+}  /* iPhone */

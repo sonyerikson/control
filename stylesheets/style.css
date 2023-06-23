@@ -1,0 +1,17 @@
+@import 'reset.css';
+@import 'content.css';
+@import 'responsive.css';
+@font-face {
+    font-family: "Arial-ItalicMT";
+    src: url("../fonts/Arial-ItalicMT.ttf")
+}
+@font-face {
+    font-family: "ArialMT";
+    src: url("../fonts/ArialMT.ttf")
+}
+@font-face {
+    font-family: "NTSomic-Regular";
+    src: url("../fonts/NTSomic-Regular.ttf")
+}
+
+
